@@ -1,0 +1,129 @@
+#header {
+    display: flex;
+    border: 1px solid whitesmoke;
+    background: linear-gradient(135deg, rgba(7, 104, 99, 0.432), rgba(7, 104, 99, 0.432));
+    backdrop-filter: blur(3px);
+    justify-content: center;
+    position: relative;
+    border-radius: 15px;
+    }
+
+h1 {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 45px;
+    color: aliceblue;
+    text-align: justify;
+    line-height: 5px;
+    text-align: center;
+    }
+
+h3{
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: bold;
+    color: aliceblue;
+    font-size: 20;
+}
+
+#menu {
+    float:right;
+    }
+
+.navigasi {
+    border: 1px solid whitesmoke;
+    background: linear-gradient(135deg, rgba(7, 104, 99, 0.432), rgba(7, 104, 99, 0.432));
+    backdrop-filter: blur(3px);
+    justify-content: left;
+    position: relative;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 10px;
+    color: aliceblue;
+}
+
+a{
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: bold;
+    color: aliceblue;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.gif{
+    width: 125;
+    height: 125;
+    border: 1px solid whitesmoke;
+    background: linear-gradient(135deg, rgba(7, 104, 99, 0.432), rgba(7, 104, 99, 0.432));
+    backdrop-filter: blur(3px);
+    border-radius: 100px;
+}
+
+#isi {
+    width:550px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    padding:10px;
+    border: 1px solid whitesmoke;
+    background: linear-gradient(135deg, rgba(7, 104, 99, 0.432), rgba(7, 104, 99, 0.432));
+    backdrop-filter: blur(3px);
+    position: relative;
+    border-radius: 15px;
+    }
+
+#isi p {
+    text-align: justify;
+    line-height: 18px;
+    margin-top: 0px;
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: bold;
+    color: aliceblue;
+    text-align: justify;
+    font-size: 25px;
+    }
+
+body {
+    background-image: url(bg.jpg); 
+    background-size: cover;
+    background-attachment: fixed;
+    }
+
+#content {
+    width: 750px;
+    margin: auto; /* membuat posisi di tengah */
+    }
+
+
+.gambar {
+    display: flex;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom:0px;
+    margin-left: 0px;
+    border: 1px solid whitesmoke;
+    width: 547px;
+    border-radius: 15px;
+    }
+
+#footer {
+    display: flex;
+    border: 1px solid whitesmoke;
+    background: linear-gradient(135deg, rgba(7, 104, 99, 0.432), rgba(7, 104, 99, 0.432));
+    backdrop-filter: blur(3px);
+    justify-content: center;
+    position: relative;
+    border-radius: 15px;
+    }
+
+#footer p{
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: bold;
+    color: aliceblue;
+    text-align: justify;
+    line-height: 5px;
+    font-size: medium;
+}
